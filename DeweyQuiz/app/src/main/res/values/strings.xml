@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DeweyQuiz</string>
+    <string name="dewey_quiz">Dewey Quiz</string>
+    <string name="poetry">Poetry</string>
+    <string name="cats">Pets</string>
+    <string name="trains">Trains</string>
+    <string name="folkLore">Folk Lore</string>
+    <string name="dentist">Dentist</string>
+    <string name="origami">Origami</string>
+    <string name="civilWar">Civil War</string>
+    <string name="planets">Planets</string>
+    <string name="gators">Alligators</string>
+    <string name="spanish">Spanish</string>
+    <string name="yourScore">Your score is:</string>
+    <string name="yay">You did it!</string>
+
+</resources>

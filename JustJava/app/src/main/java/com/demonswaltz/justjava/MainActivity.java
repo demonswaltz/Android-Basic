@@ -11,6 +11,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.NumberFormat;
+
 public class MainActivity extends AppCompatActivity {
     private int quantity = 0;
     private int pricePerCup = 5;
@@ -67,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         return getString(R.string.name) + ": " + name +
                 "\n" + getString(R.string.add_whipped_cream) + " " + whippedCream +
                 "\n" + getString(R.string.add_chocolate) + " " + chocolate +
-                "\n" + getString(R.string.total) + price +
+                "\n" + getString(R.string.total) + NumberFormat.getCurrencyInstance().format(price) +
                 "\n" + getString(R.string.thanks);
     }
     /**

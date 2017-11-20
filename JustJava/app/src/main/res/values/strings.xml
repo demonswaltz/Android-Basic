@@ -10,7 +10,7 @@
     <string name="too_many">Too many coffees! We just sold out!</string>
     <string name="add_whipped_cream">Add whipped cream? </string>
     <string name="add_chocolate">Add chocolate? </string>
-    <string name="total">Total: $</string>
+    <string name="total">Total: </string>
     <string name="thanks">Thank you!</string>
     <string name="email_subject">JustJava order for </string>
 

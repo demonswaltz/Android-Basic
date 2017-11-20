@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">JustJava</string>
+    <string name="name">Navn</string>
+    <string name="toppings">Toppings</string>
+    <string name="whipped_cream">Flødeskum</string>
+    <string name="chocolate">Chokolade</string>
+    <string name="quantity">Antal</string>
+    <string name="order">Bestille</string>
+    <string name="none_coffees">Du kan ikke bestille \"ingen\" kaffe!</string>
+    <string name="too_many">For mange kaffe! Vi er lige udsolgt!</string>
+    <string name="add_whipped_cream">Med flødeskum? </string>
+    <string name="add_chocolate">Med chokolade? </string>
+    <string name="total">Total: </string>
+    <string name="thanks">Mange tak!</string>
+    <string name="email_subject">JustJava bestilling til </string>
+
+</resources>
