@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.demonswaltz.deweyquiz.MainActivity">
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="DeweyOne"
+        android:text="@string/play_the_game_i_wrote_before_i_read_the_rubric"/>
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="DeweyTwo"
+        android:text="@string/play_the_game_i_wrote_after_i_read_the_rubric"/>
+
+
+</LinearLayout>

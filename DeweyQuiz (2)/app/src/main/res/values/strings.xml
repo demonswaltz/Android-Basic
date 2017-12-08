@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">DeweyQuiz</string>
+    <string name="dewey_quiz">Dewey Quiz</string>
+    <string name="poetry">Poetry</string>
+    <string name="cats">Pets</string>
+    <string name="trains">Trains</string>
+    <string name="folkLore">Folklore</string>
+    <string name="dentist">Dentist</string>
+    <string name="origami">Origami</string>
+    <string name="civilWar">Civil War</string>
+    <string name="planets">Planets</string>
+    <string name="gators">Alligators</string>
+    <string name="spanish">Spanish</string>
+    <string name="yourScore">Your score is:</string>
+    <string name="yay">You did it!</string>
+    <string name="play_the_game_i_wrote_after_i_read_the_rubric">Play the game I wrote after I read the rubric</string>
+    <string name="play_the_game_i_wrote_before_i_read_the_rubric">Play the game I wrote before I read the rubric</string>
+    <string name="nope">No, that\'s not it!</string>
+    <string name="try_again">Try again!</string>
+    <string name="last_guess">One last guess!</string>
+    <string name="next_one">Maybe you\'ll get the next one!</string>
+    <string name="your_answer_here">Your Answer Here</string>
+    <string name="right_answer">Yay! You got it right!</string>
+    <string name="year_published">What year was the Dewey Decimal System published?</string>
+    <string name="first_name">What was Dewey\'s first name?</string>
+    <string name="submit">Submit</string>
+    <string name="animals590">Which of these is in the 590\'s? hint: it\'s more than one!</string>
+    <string name="wolves">Wolves</string>
+    <string name="lemurs">Lemurs</string>
+    <string name="sciencebooks">Where would you expect to find books that cover science topics?</string>
+    <string name="mainmenu">return to main menu</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeweyQuiz</string>
+    <string name="dewey_quiz">Dewey Quiz</string>
+    <string name="poetry">Poesi</string>
+    <string name="cats">Kæledyr</string>
+    <string name="trains">Tog</string>
+    <string name="folkLore">Folklore</string>
+    <string name="dentist">Tandlæge</string>
+    <string name="origami">Origami</string>
+    <string name="civilWar">Amerikansk borgerkrig</string>
+    <string name="planets">Planeter</string>
+    <string name="gators">Alligatorer</string>
+    <string name="spanish">Spansk</string>
+    <string name="yourScore">Din score er:</string>
+    <string name="yay">Du gjorde det!</string>
+    <string name="play_the_game_i_wrote_after_i_read_the_rubric">Spil spillet jeg skrev efter at jeg læste rubrikken</string>
+    <string name="play_the_game_i_wrote_before_i_read_the_rubric">Spil spillet jeg skrev efter jeg før rubrikken</string>
+    <string name="nope">Nej, det er det ikke!</string>
+    <string name="try_again">Prøv igen!</string>
+    <string name="last_guess">Et sidste gæt!</string>
+    <string name="next_one">Måske svarer du den næste rigtige ...</string>
+    <string name="your_answer_here">Dit svar her</string>
+    <string name="right_answer">Yay! Du har det rigtigt!</string>
+    <string name="year_published">Hvilket år blev The Dewey Decimal System udgivet?</string>
+    <string name="first_name">Hvad var Dewys fornavn?</string>
+    <string name="submit">Indsend</string>
+    <string name="animals590">Hvilke af disse tilhører i 590\'s? Tip: Det er mere end en!</string>
+    <string name="wolves">Ulve</string>
+    <string name="lemurs">Lemurer</string>
+    <string name="sciencebooks">Hvor ville du forvente at finde bøger om videnskab?</string>
+    <string name="mainmenu">Tilbage til hovedmenuen</string>
+</resources>

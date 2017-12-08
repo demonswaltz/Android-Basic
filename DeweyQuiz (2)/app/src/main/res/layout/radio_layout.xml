@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demonswaltz.deweyquiz.DeweyTwo">
+
+
+    <ImageView
+        android:id="@+id/question_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@id/header_image_view"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bookwall" />
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@id/header_image_view"
+        android:background="#80FFFFFF"
+        android:gravity="center"
+        android:textColor="#000"
+
+        android:textSize="72sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_image_view">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/RadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/button1"
+                    android:layout_width="280dp"
+                    android:layout_height="0dp"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/button2"
+                    android:layout_width="280dp"
+                    android:layout_height="0dp"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/button3"
+                    android:layout_width="280dp"
+                    android:layout_height="0dp"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/button4"
+                    android:layout_width="280dp"
+                    android:layout_height="0dp"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:textSize="20sp" />
+            </RadioGroup>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="checkRadio"
+                android:text="@string/submit" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

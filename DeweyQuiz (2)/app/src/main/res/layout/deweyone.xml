@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demonswaltz.deweyquiz.DeweyOne">
+
+    <ImageView
+        android:id="@+id/header_image_view"
+        android:src="@drawable/bookwall"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:alpha=".6"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textColor="#000"
+        android:textSize="36sp"
+        android:text="Score:"/>
+    <TextView
+        android:id="@+id/score_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginRight="16dp"
+        android:textColor="#000"
+        android:textSize="36sp"
+        android:layout_alignParentRight="true"
+        android:text="0"/>
+
+    <ImageView
+        android:id="@+id/question_image_view"
+        android:layout_below="@id/header_image_view"
+        android:src="@drawable/booklove"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#80FFFFFF"
+        android:layout_below="@id/header_image_view"
+        android:gravity="center"
+        android:textSize="72sp"
+
+        android:textColor="#000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:layout_below="@id/question_image_view"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="280dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="280dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:layout_below="@id/button1"/>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="280dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:layout_below="@id/button2"/>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="280dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:layout_below="@id/button3"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
