@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
 <resources>
     <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Miwok</string>
@@ -14,14 +27,44 @@
 
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_family">Family Members</string>
-    <string name="one">En</string>
-    <string name="two">To</string>
-    <string name="three">Tre</string>
-    <string name="four">Fire</string>
-    <string name="five">Fem</string>
-    <string name="six">Seks</string>
-    <string name="seven">Syv</string>
-    <string name="eight">Otte</string>
-    <string name="nine">Ni</string>
-    <string name="ten">Ti</string>
+    <string name="one">en</string>
+    <string name="two">to</string>
+    <string name="three">tre</string>
+    <string name="four">fire</string>
+    <string name="five">fem</string>
+    <string name="six">seks</string>
+    <string name="seven">syv</string>
+    <string name="eight">otte</string>
+    <string name="nine">ni</string>
+    <string name="ten">ti</string>
+    <string name="red">rød</string>
+    <string name="green">grøn</string>
+    <string name="brown">brun</string>
+    <string name="grey">grå</string>
+    <string name="black">sort</string>
+    <string name="white">hvid</string>
+    <string name="dusty_yellow">lysegul</string>
+    <string name="mustard_yellow">mørkegul</string>
+    <string name="father">far</string>
+    <string name="mother">mor</string>
+    <string name="son">søn</string>
+    <string name="daughter">datter</string>
+    <string name="older_brother">storebror</string>
+    <string name="younger_brother">lillebror</string>
+    <string name="older_sister">storesøster</string>
+    <string name="younger_sister">lillesøster</string>
+    <string name="grandmother">bedstemor</string>
+    <string name="grandfather">bedstemfar</string>
+    <string name="where_are_you_going">Hvor skal du han?</string>
+    <string name="what_is_your_name">Hvad hedder du?</string>
+    <string name="my_name_is">Jeg heddder...</string>
+    <string name="how_are_you_feeling">Hvordan går det?</string>
+    <string name="im_feeling_good">Det går godt.</string>
+    <string name="are_you_coming">Kommer du?</string>
+    <string name="yes_im_coming">Ja, jeg kommer.</string>
+    <string name="im_coming">Jeg kommero.</string>
+    <string name="lets_go">Skal vi gå?</string>
+    <string name="come_here">Kom her.</string>
+    <string name="color_label">Colors</string>
+    <string name="family_label">Family</string>
 </resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hotel">Hotels</string>
+    <string name="shopping">Shoping</string>
+    <string name="parks">Parks</string>
+    <string name="attractions">Attractions</string>
+    <string name="rocky_mountain">Rocky Mountain National Park</string>
+    <string name="encinitas">Encinitas Community Park</string>
+    <string name="carlsbad">South Carlsbad State Beach</string>
+    <string name="sycamore_valley">Sycamore Valley Park</string>
+    <string name="joaquin_miller">Joaquin Miller Park</string>
+    <string name="golden_gate_park">Golden Gate National Recreation Area</string>
+    <string name="worlds_largest">World\'s Largest Truck Stop</string>
+    <string name="lily_mountain">Lily Mountain Trailhead</string>
+    <string name="socal_surf">SoCal Surf Lessons</string>
+    <string name="sea_otter">California Sea Otter Game Refuge</string>
+    <string name="golden_gate_brdige">Golden Gate Bridge</string>
+    <string name="bay_area_maker">Bay Area Maker Faire</string>
+    <string name="north_platte"><![CDATA[LaQuinta Inn & Suites North Platte]]></string>
+    <string name="farmington">LaQuinta Inn Farmington</string>
+    <string name="las_vegas">LaQuinta Inn and Suites Las Vegas Airport</string>
+    <string name="oceanside">LaQuinta Inn and Suites San Diego Oceanside</string>
+    <string name="oakland">LaQuinta Inn and Suites Oakland Airport Collisium</string>
+    <string name="orem">LaQuinta Inn and Suites North Orem</string>
+    <string name="worlds_largest_address">2600 Eagles Wings Pl, North Platte, NE 69101</string>
+</resources>

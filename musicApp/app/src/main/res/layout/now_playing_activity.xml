@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/back"
+        android:background="@color/colorAccent"
+        android:text="Return to Library"
+        android:padding="8dp"
+        android:textColor="#ffff"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:id="@+id/now_playing_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="@drawable/circle_button"
+        android:src="@mipmap/ic_ic_play_arrow_white_48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:id="@+id/title_textview"
+        android:layout_above="@id/artist_textview"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/artist_textview"
+        android:textSize="24sp"
+        android:layout_above="@id/album_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/album_textview"
+        android:textSize="24sp"
+        android:layout_above="@id/now_playing_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

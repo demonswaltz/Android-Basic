@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#90A4AE</color>
+    <color name="hotel_category">#009688</color>
+    <color name="gas_category">#FF5722</color>
+    <color name="attractions_category">#9C27B0</color>
+    <color name="park_category">#8BC34A</color>
+    
+</resources>

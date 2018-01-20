@@ -1,21 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_marginLeft="16dp"
-    android:layout_marginTop="16dp">
-    <TextView
+    android:background="@color/tan_background"
+    android:minHeight="@dimen/list_item_height"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/text_background"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/miwokWord"
-        tools:text="lutti"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/englishWord"
-        android:text="one"/>
+        android:layout_height="@dimen/list_item_height"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/miwokWord"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:layout_marginLeft="16dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="lutti" />
+
+        <TextView
+            android:id="@+id/defaultWord"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:layout_marginLeft="16dp"
+            tools:text="one"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignRight="@id/text_background"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_play_arrow"
+            android:layout_margin="16dp"/>
+    </RelativeLayout>
 
 </LinearLayout>

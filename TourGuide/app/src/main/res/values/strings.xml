@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hotel">Hotels</string>
+    <string name="shopping">Shoping</string>
+    <string name="parks">Parks</string>
+    <string name="attractions">Attractions</string>
+    <string name="rocky_mountain">Rocky Mountain National Park</string>
+    <string name="encinitas">Encinitas Community Park</string>
+    <string name="carlsbad">South Carlsbad State Beach</string>
+    <string name="sycamore_valley">Sycamore Valley Park</string>
+    <string name="joaquin_miller">Joaquin Miller Park</string>
+    <string name="golden_gate_park">Golden Gate National Recreation Area</string>
+    <string name="worlds_largest">World\'s Largest Truck Stop</string>
+    <string name="lily_mountain">Lily Mountain Trailhead</string>
+    <string name="socal_surf">SoCal Surf Lessons</string>
+    <string name="sea_otter">California Sea Otter Game Refuge</string>
+    <string name="golden_gate_brdige">Golden Gate Bridge</string>
+    <string name="bay_area_maker">Bay Area Maker Faire</string>
+    <string name="north_platte"><![CDATA[LaQuinta Inn & Suites North Platte]]></string>
+    <string name="farmington">LaQuinta Inn Farmington</string>
+    <string name="las_vegas">LaQuinta Inn and Suites Las Vegas Airport</string>
+    <string name="oceanside">LaQuinta Inn and Suites San Diego Oceanside</string>
+    <string name="oakland">LaQuinta Inn and Suites Oakland Airport Collisium</string>
+    <string name="orem">LaQuinta Inn and Suites North Orem</string>
+    <string name="worlds_largest_address">2600 Eagles Wings Pl, North Platte, NE 69101</string>
+    <string name="lily_mountain_address">E, 2150 Centre Ave, Fort Collins, CO 80526</string>
+    <string name="golden_gate_bridge_address">8465 Enterprise Way, Oakland, CA 94621</string>
+    <string name="bay_area_address">1246 Saratoga Dr, San Mateo CA 94403</string>
+    <string name="encinatas_address">425 Santa Fe Dr, Encinitas, CA 92024</string>
+    <string name="sycamore_address">2101 Holbrook Dr, Danville, CA 94526</string>
+    <string name="jmiller_address">3300 Joaquin Miller Rd, Oakland, CA 94602</string>
+    <string name="belvidere_walgreens">230 W Chrysler Dr, Belvidere, IL 61008</string>
+    <string name="walgreens">Walgreens</string>
+    <string name="walmart">Walmart Supercenter</string>
+    <string name="d_s">D and S Convenien ce</string>
+    <string name="bp_iowa">W Iowa 80 Rd, Walcott, IA 52773</string>
+    <string name="bp">BP</string>
+    <string name="walmart_lincoln_ne">4700 N 27th St, Lincoln, NE 68521</string>
+    <string name="d_s_address">640 US Hwy 285, Fairplay, CO 80440</string>
+    <string name="target">Target</string>
+    <string name="target_riverside_ca">2755 Canyon Springs Pkwy, Riverside, CA 92507</string>
+    <string name="walgreens_oakland">8102 International Blvd, Oakland, CA 94621</string>
+    <string name="petsmart">PetSmart</string>
+    <string name="petsmart_dublin_ca">Amador Plaza Rd, Dublin, CA 94568</string>
+    <string name="concord">Concord Toyota</string>
+    <string name="concord_toyota">1090 Concord Ave, Concord, CA 94520</string>
+    <string name="walmart_sterling_co">1510 W Main St, Sterling, CO 80751</string>
+    <string name="lq_north_platte_ne">2600 Eagles Wings Pl, North Platte, NE 69101</string>
+    <string name="lq_farmington_nm">675 Scott Ave, Farmington, NM 87401</string>
+    <string name="lq_lv">3970 Paradise Rd, Las Vegas, NV 89169</string>
+    <string name="lq_oceanside_ca">937 N Coast Hwy</string>
+    <string name="lq_oakland_ca">8465 Enterprise Way, Oakland, CA 94621</string>
+    <string name="lq_orem_ut">1100 W 780 N, Orem, UT 84057</string>
+</resources>
