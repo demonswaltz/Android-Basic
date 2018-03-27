@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+    <string name="section_default">Technology</string>
+    <string name="setting_section_key" translatable="false">section_key</string>
+    <string name="setting_section_title">Section</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="nothing_to_see_here">Looks like nothing is happening</string>
+    <string name="section">section</string>
+    <string name="format">format</string>
+    <string name="json">json</string>
+    <string name="show_tags">show-tags</string>
+    <string name="contributor">contributor</string>
+    <string name="api_key">api-key</string>
+    <string name="test">test</string>
+    <string name="travel">Travel</string>
+    <string name="music">Music</string>
+    <string name="technology">Technology</string>
+    <string name="science">Science</string>
+    <string name="business">Business</string>
+
+</resources>

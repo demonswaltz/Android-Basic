@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    I have a text to speech application where the user can select a language and also select a male or female voice. The problem is that for each language there are different strings used to called the male and female voice but in my preference I only have two options (male and female).
+
+    <string-array name="section_entities">
+        <item>@string/travel</item>
+        <item>@string/music</item>
+        <item>@string/technology</item>
+        <item>@string/science</item>
+        <item>@string/business</item>
+    </string-array>
+
+    <string-array name="section_values">
+        <item>travel</item>
+        <item>music</item>
+        <item>technology</item>
+        <item>science</item>
+        <item>business</item>
+    </string-array>
+</resources>

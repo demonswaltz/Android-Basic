@@ -1,11 +1,13 @@
 package com.example.knits4.tourguide;
 
 
+import android.app.LoaderManager;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,15 +19,37 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class AttractionFragment extends Fragment {
+public class AttractionFragment extends Fragment implements LoaderManager.LoaderCallbacks {
 
     public AttractionFragment() {
         // Required empty public constructor
+    }
+    @Override
+    public void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+        Log.e("AttractionFragment", "was created");
+    }
+
+    @Override
+    public void onDestroy(){
+        super.onDestroy();
+        Log.e("AttractionFragment", "was destroyed");
+    }
+    @Override
+    public void onDestroyView(){
+        super.onDestroyView();
+        Log.e("Attraction", "view was destroyed");
+    }
+    @Override
+    public void onLoadFinished(){
+        super.
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        Log.e("AttractoinFragment", "view was created");
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         // Create a list of words

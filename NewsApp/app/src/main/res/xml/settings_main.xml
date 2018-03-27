@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/section_default"
+        android:inputType="numberDecimal"
+        android:key="@string/setting_section_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/setting_section_title"
+        android:entries="@array/section_entities"
+        android:entryValues="@array/section_values"
+        android:summary=""/>
+
+
+</PreferenceScreen>

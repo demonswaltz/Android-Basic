@@ -18,6 +18,7 @@ package com.example.android.soonami;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.TextUtils;
 import android.util.Log;
 import android.widget.TextView;
 
@@ -155,16 +156,25 @@ public class MainActivity extends AppCompatActivity {
             String jsonResponse = "";
             HttpURLConnection urlConnection = null;
             InputStream inputStream = null;
+            if (url == null){
+                return jsonResponse;
+            }
             try {
                 urlConnection = (HttpURLConnection) url.openConnection();
                 urlConnection.setRequestMethod("GET");
                 urlConnection.setReadTimeout(10000 /* milliseconds */);
                 urlConnection.setConnectTimeout(15000 /* milliseconds */);
                 urlConnection.connect();
-                inputStream = urlConnection.getInputStream();
-                jsonResponse = readFromStream(inputStream);
+                int httpResponse = urlConnection.getResponseCode();
+                if (httpResponse == 200) {
+                    inputStream = urlConnection.getInputStream();
+                    jsonResponse = readFromStream(inputStream);
+                }else {
+                    jsonResponse = "";
+                    Log.e(LOG_TAG, "HTTP Code:" + httpResponse);
+                }
             } catch (IOException e) {
-                // TODO: Handle the exception
+                Log.e(LOG_TAG, "IOException: ", e);
             } finally {
                 if (urlConnection != null) {
                     urlConnection.disconnect();
@@ -200,6 +210,9 @@ public class MainActivity extends AppCompatActivity {
          * about the first earthquake from the input earthquakeJSON string.
          */
         private Event extractFeatureFromJson(String earthquakeJSON) {
+            if (TextUtils.isEmpty(earthquakeJSON)){
+                return null;
+            }
             try {
                 JSONObject baseJsonResponse = new JSONObject(earthquakeJSON);
                 JSONArray featureArray = baseJsonResponse.getJSONArray("features");
